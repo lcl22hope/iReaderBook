@@ -1,0 +1,6 @@
+pod 'Masonry'
+pod 'SECoreTextView'
+pod 'pop', '~> 1.0'
+pod 'TouchXML','~>0.1'
+pod 'ZipArchive', '~> 1.3.0'
+pod 'FMDB', '~> 2.3'

@@ -1,0 +1,29 @@
+PODS:
+  - FMDB (2.3):
+    - FMDB/standard
+  - FMDB/common (2.3)
+  - FMDB/standard (2.3):
+    - FMDB/common
+  - Masonry (0.5.3)
+  - pop (1.0.6)
+  - SECoreTextView (0.8.3)
+  - TouchXML (0.1)
+  - ZipArchive (1.3.0)
+
+DEPENDENCIES:
+  - FMDB (~> 2.3)
+  - Masonry
+  - pop (~> 1.0)
+  - SECoreTextView
+  - TouchXML (~> 0.1)
+  - ZipArchive (~> 1.3.0)
+
+SPEC CHECKSUMS:
+  FMDB: 31ec26773c7f7b7890a6038235a1f2bbd933a7cb
+  Masonry: 35368c2ca9577ca87722c12fc52c4bad9b1c1516
+  pop: e518794da38942c05255eb64b36d894e70cb4f00
+  SECoreTextView: d5c3f5d7dbef475990db2f21037e1b28cdfca187
+  TouchXML: fa552bd1f8b98cb5233be61622655796765fe535
+  ZipArchive: acd54f7131c2d2f45dc3f41c4f854501f222269f
+
+COCOAPODS: 0.33.1

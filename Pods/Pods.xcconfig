@@ -1,0 +1,7 @@
+CLANG_CXX_LANGUAGE_STANDARD = c++11
+CLANG_CXX_LIBRARY = libc++
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/FMDB" "${PODS_ROOT}/Headers/Masonry" "${PODS_ROOT}/Headers/SECoreTextView" "${PODS_ROOT}/Headers/TouchXML" "${PODS_ROOT}/Headers/ZipArchive" "${PODS_ROOT}/Headers/pop" $(SDKROOT)/usr/include/libxml2
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/FMDB" -isystem "${PODS_ROOT}/Headers/Masonry" -isystem "${PODS_ROOT}/Headers/SECoreTextView" -isystem "${PODS_ROOT}/Headers/TouchXML" -isystem "${PODS_ROOT}/Headers/ZipArchive" -isystem "${PODS_ROOT}/Headers/pop"
+OTHER_LDFLAGS = -ObjC -lc++ -lsqlite3 -lxml2 -lz -framework CoreText -framework Foundation -framework QuartzCore -framework UIKit
+PODS_ROOT = ${SRCROOT}/Pods
